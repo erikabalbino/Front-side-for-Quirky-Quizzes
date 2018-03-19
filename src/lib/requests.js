@@ -1,6 +1,5 @@
-const DOMAIN = "localhost:3000";
 const API_PREFIX = "/v1";
-const BASE_URL = `http://${DOMAIN}${API_PREFIX}`;
+const BASE_URL = `http://${process.env.DOMAIN}${API_PREFIX}`;
 
 function getJWT() {
   return localStorage.getItem("jwt");
