@@ -1,5 +1,6 @@
 const API_PREFIX = "/v1";
-const BASE_URL = `http://${process.env.DOMAIN}${API_PREFIX}`;
+console.log(process.env)
+const BASE_URL = `https://${process.env.DOMAIN}${API_PREFIX}`;
 
 function getJWT() {
   return localStorage.getItem("jwt");
