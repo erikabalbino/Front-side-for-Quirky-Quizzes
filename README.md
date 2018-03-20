@@ -11,18 +11,11 @@ Users can compete quizzes to earn points and badges to work their way up the lea
 Start by cloning both repo to your computer:
 * Front-side-for-Quirky-Quizzes
 * Back-side-for-Quirky-Quizzes
-and then follow the steps below to setup the frontend and backend:
 
-## Back end
+Make sure to setup Back end first, following this link :
+https://github.com/erikabalbino/Back-side-for-Quirky-Quizzes
 
-1. Navigate to the server directory and run the following commands to setup at seed your database (note: this project was designed for use with postgreSQL):
-
-* `bundle`
-* `rails db:create`
-* `rails db:migrate`
-* `rails db:seed`
-
-You should now have a seeded database
+and then follow the steps below to setup the frontend:
 
 ## Front end
 

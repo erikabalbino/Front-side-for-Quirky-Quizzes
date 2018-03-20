@@ -9,7 +9,6 @@ class AnswerForm extends React.Component {
     this.state = {
       answers: []
     };
-    console.log('this.state.answers: ', this.state.answers);
     //const { onSubmit = () => {} } = props;
   }
     handleSubmit(event) {
@@ -19,18 +18,15 @@ class AnswerForm extends React.Component {
       const newAnswer = {
         body: formData.get(latestBody)
       };
-      console.log('newAnswer: ', newAnswer);
       this.setState({
       answers: [newAnswer, ...this.state.answers]
       })
-      console.log('this.state.answers: ', this.state.answers);
 
     };
 
     listAnswers() {
       let arr = []
       for (let a = 0; a < this.state.answers.length; a += 1) {
-        // console.log(this.state.answers.length);
         let fieldName = `body[${a+1}]`
         arr.push(
             <Form.Field //label='Answer'
