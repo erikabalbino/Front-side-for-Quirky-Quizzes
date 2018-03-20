@@ -9,8 +9,9 @@ Users can compete quizzes to earn points and badges to work their way up the lea
 # Setup
 
 Start by cloning both repo to your computer:
-* Front-side-for-Quirky-Quizzes
-* Back-side-for-Quirky-Quizzes
+* Front-side-for-Quirky-Quizzes :https://github.com/erikabalbino/Front-side-for-Quirky-Quizzes
+* Back-side-for-Quirky-Quizzes : https://github.com/erikabalbino/Back-side-for-Quirky-Quizzes
+
 
 Make sure to setup Back end first, following this link :
 https://github.com/erikabalbino/Back-side-for-Quirky-Quizzes
