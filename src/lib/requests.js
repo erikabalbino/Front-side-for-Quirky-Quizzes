@@ -1,6 +1,5 @@
 const API_PREFIX = "/v1";
-console.log(process.env)
-const BASE_URL = `https://${process.env.DOMAIN}${API_PREFIX}`;
+const BASE_URL = `https://quirky-quizzes-server.herokuapp.com${API_PREFIX}`;
 
 function getJWT() {
   return localStorage.getItem("jwt");
